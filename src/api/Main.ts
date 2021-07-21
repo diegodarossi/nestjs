@@ -15,8 +15,8 @@ async function bootstrap() {
   app.enableCors();
 
   const options = new DocumentBuilder()
-    .setTitle('BID API')
-    .setDescription('Modulo de licitações Trizy')
+    .setTitle('API')
+    .setDescription('Module')
     .setVersion('0.1')
     .build();
 
